@@ -183,4 +183,103 @@ html {
     margin: 2em 0;
     font-family: "Raleway", sans-serif;
     color: rgb(184, 184, 184);
+
+}
+
+
+
+.navbar {
+    background-color: rgb(22, 7, 82);
+    font-size: 15px;
+}
+
+.navbar .logo {
+    width: 45%;
+
+}
+
+.navbar-brand {
+    display: none;
+
+}
+
+#navbarMenu {
+    align-items: right;
+
+}
+
+.collapse {
+    justify-content: center;
+
+}
+
+.nav-item {
+    display: flex;
+
+
+}
+
+
+#nav-row {
+    justify-content: space-between;
+}
+
+
+
+.nav-link {
+    margin: 0 30px;
+}
+
+.navbar-toggler {
+    margin: 1em 2.5em;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1000px) {
+
+
+    .navbar .logo {
+        width: 55%;
+
+    }
+
+}
+
+@media (max-width:730px) {
+
+
+    .navbar .logo {
+        width: 75%;
+
+    }
+
+}
+
+@media (max-width:530px) {
+
+
+    .navbar .logo {
+        width: 100%;
+        align-items: center;
+        padding-top: 10px;
+
+
+    }
+
+    .main-intro h1 {
+        font-size: 30px;
+    }
+
+    .main-intro {
+        height: 700px;
+        font-size: 1rem;
+    }
+
 }
