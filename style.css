@@ -156,6 +156,7 @@ html {
     color: white;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 
@@ -166,7 +167,7 @@ html {
     font-style: normal;
     font-size: 6rem;
     text-align: center;
-    margin-top: 60px;
+    margin: 50px 0;
 }
 
 /* .main-intro h3 {
@@ -190,34 +191,32 @@ html {
 
 .navbar {
     background-color: rgb(22, 7, 82);
-    font-size: 15px;
+    font-size: 12px;
+    width: 100%;
 }
 
 .navbar .logo {
-    width: 45%;
+    width: 80%;
 
 }
 
 .navbar-brand {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
-#navbarMenu {
-    align-items: right;
 
-}
 
 .collapse {
-    justify-content: center;
-
-}
-
-.nav-item {
-    display: flex;
+    justify-content: end;
+    margin-right: 20px;
 
 
 }
+
+
 
 
 #nav-row {
@@ -225,29 +224,168 @@ html {
 }
 
 
+#navbar-Nav {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
-.nav-link {
-    margin: 0 30px;
+
+
+
+/* kdfjsdsdfkjsfsjdhjsdfh */
+
+#navbar-Nav a:hover {
+    color: rgb(255, 238, 0);
+
+    transition: .2s;
+}
+
+#navbar-Nav a:focus {
+    color: rgb(255, 238, 0);
+}
+
+#navbar-Nav a::after {
+    color: rgb(255, 255, 255);
+    background-color: rgba(218, 218, 218, 0.39);
 }
 
 .navbar-toggler {
     margin: 1em 2.5em;
 }
 
+#img {
+    display: flex;
+    align-items: center;
+}
+
+#nav-menus {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 0 38px;
+}
+
+/* #nav-menus:hover {
+    color: rgb(255, 238, 0);
+
+    transition: .2s;
+}
+
+#nav-menus::after {
+
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 2px;
+    bottom: -5px;
+    width: 100%;
+    background: rgb(255, 238, 0);
+    border-radius: 6px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: 0.4s;
+
+}
+
+#nav-menus:hover::after {
+    transform: scaleX(1);
+} */
 
 
 
 
+/* codess for contact us html file */
 
+.contact-us {
+    width: 80%;
+    margin: auto;
 
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div i {
+    font-size: 28px;
+    color: #b50d66;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.contact-col input,
+.contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 30px;
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+
+.icons i {
+    color: #b2085d;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    font-size: 25px;
+}
+
+.fa-heart {
+    color: #b50d66;
+}
+
+/* codes for different viewports */
 
 
 @media (max-width:1000px) {
 
 
     .navbar .logo {
-        width: 55%;
+        width: 95%;
 
+    }
+
+    .main-intro h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .main-intro {
+        height: 600px;
+        font-size: 1rem;
     }
 
 }
@@ -256,8 +394,20 @@ html {
 
 
     .navbar .logo {
-        width: 75%;
+        width: 95%;
+        padding: 0;
+        margin: 0;
 
+    }
+
+    .main-intro h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .main-intro {
+        height: 600px;
+        font-size: 1rem;
     }
 
 }
@@ -268,18 +418,51 @@ html {
     .navbar .logo {
         width: 100%;
         align-items: center;
-        padding-top: 10px;
+        padding: 0;
+        margin: 0;
+
 
 
     }
 
     .main-intro h1 {
-        font-size: 30px;
+        font-size: 36px;
+        margin-bottom: 20px;
     }
 
     .main-intro {
         height: 700px;
         font-size: 1rem;
+        background-attachment: fixed;
+    }
+
+}
+
+
+
+@media (max-width:380px) {
+
+    .navbar .logo {
+        width: 100%;
+        align-items: center;
+        padding-top: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        align-items: center;
+    }
+
+    .main-intro {
+        height: 700px;
+        font-size: 0.8em;
+    }
+
+    .main-intro h1 {
+        font-size: 30px;
+        margin: 10px;
+        padding-bottom: 22px;
     }
 
 }
