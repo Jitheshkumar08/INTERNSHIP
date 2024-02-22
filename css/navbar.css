@@ -1,0 +1,292 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+
+
+/* HTML5 display-role reset for older browsers */
+
+
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
+/* navbar codes  */
+
+.home_btn_active {
+    background-color: rgba(202, 202, 202, 0.114);
+    border-radius: 8px;
+}
+
+#wrapper {
+    background-color: rgb(255, 249, 241);
+}
+
+.navbar {
+    background-color: rgb(22, 7, 82);
+    font-size: 12px;
+    width: 100%;
+    border-bottom: 1px solid rgb(88, 107, 215);
+}
+
+.navbar .logo {
+    width: 80%;
+
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.collapse {
+    justify-content: end;
+    margin-right: 20px;
+
+
+}
+
+
+#nav-row {
+    justify-content: space-between;
+}
+
+
+#navbar-Nav {
+    width: 90%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#navbar-Nav a:hover {
+    color: rgb(255, 238, 0);
+
+    transition: .2s;
+}
+
+#navbar-Nav a:focus {
+    color: rgb(255, 238, 0);
+}
+
+#navbar-Nav a::after {
+    color: rgb(255, 255, 255);
+    background-color: rgba(218, 218, 218, 0.39);
+}
+
+.navbar-toggler {
+    margin: 1em 2.5em;
+
+}
+
+
+
+#img {
+    display: flex;
+    align-items: center;
+}
+
+#nav-menus {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 10px 38px;
+    font-size: 14px;
+}
+
+
+
+
+@media (max-width:1000px) {
+
+
+    .navbar .logo {
+        width: 95%;
+
+    }
+
+
+}
+
+@media (max-width:730px) {
+
+
+    .navbar .logo {
+        width: 95%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+
+}
+
+@media (max-width:530px) {
+
+
+    .navbar .logo {
+        width: 100%;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+
+
+
+    }
+
+
+}
+
+
+
+@media (max-width:380px) {
+
+    .navbar .logo {
+        width: 100%;
+        align-items: center;
+        padding-top: 10px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar-brand {
+        align-items: center;
+    }
+
+
+
+}
