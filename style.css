@@ -367,6 +367,65 @@ html {
     color: #b50d66;
 }
 
+
+
+
+
+/* code for main body starts here */
+
+.blocks img {
+    width: 100%;
+}
+
+
+
+.main-body {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+.main-body h1 {
+    text-align: center;
+    justify-content: center;
+    font-size: 2.5em;
+    border-bottom: 1.5px solid rgb(211, 211, 211);
+}
+
+.main-body h2 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.blocks {
+    border: 1px solid rgb(182, 182, 182);
+    border-radius: 1.2em;
+    margin: 0 1rem;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+
+}
+
+.block-middle {
+    margin: 0 3em;
+}
+
+.main-body .row {
+    justify-content: center;
+}
+
+
+
+
+#wrapper .container {
+    max-width: 90%;
+    display: flex;
+}
+
+/* code for main body ends here */
+
+
 /* codes for different viewports */
 
 
