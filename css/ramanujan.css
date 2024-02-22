@@ -207,6 +207,16 @@ table {
 
 
 
+/* code for body section starts here */
+
+#body {
+    background-color: #ffe8f0;
+}
+
+
+/* code for body section ends here */
+
+
 @media (min-width:1200px) {
     #contnr {
         max-width: 1200px;
