@@ -423,6 +423,13 @@ html {
     display: flex;
 }
 
+
+@media (max-width:730px) {
+    .blocks {
+        margin: 0;
+    }
+}
+
 /* code for main body ends here */
 
 
