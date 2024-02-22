@@ -188,11 +188,22 @@ html {
 }
 
 
+/* navbar css */
+
+.home_btn_active {
+    background-color: rgba(202, 202, 202, 0.114);
+    border-radius: 8px;
+}
+
+#wrapper {
+    background-color: rgb(255, 249, 241);
+}
 
 .navbar {
     background-color: rgb(22, 7, 82);
     font-size: 12px;
     width: 100%;
+    border-bottom: 1px solid rgb(88, 107, 215);
 }
 
 .navbar .logo {
@@ -208,15 +219,12 @@ html {
 }
 
 
-
 .collapse {
     justify-content: end;
     margin-right: 20px;
 
 
 }
-
-
 
 
 #nav-row {
@@ -231,10 +239,6 @@ html {
     justify-content: center;
 }
 
-
-
-
-/* kdfjsdsdfkjsfsjdhjsdfh */
 
 #navbar-Nav a:hover {
     color: rgb(255, 238, 0);
@@ -253,7 +257,12 @@ html {
 
 .navbar-toggler {
     margin: 1em 2.5em;
+
 }
+
+
+
+
 
 #img {
     display: flex;
@@ -264,7 +273,8 @@ html {
     color: white;
     font-weight: 500;
     letter-spacing: 1px;
-    padding: 0 38px;
+    padding: 10px 38px;
+    font-size: 14px;
 }
 
 /* #nav-menus:hover {
@@ -404,8 +414,15 @@ html {
     margin: 0 1rem;
     box-sizing: border-box;
     padding-bottom: 15px;
+    background-color: white;
+    transition: ease-in-out .4s;
 
 }
+
+.blocks:hover {
+    box-shadow: 0px 0px 36px -14px #757575;
+}
+
 
 .block-middle {
     margin: 0 3em;
