@@ -135,8 +135,19 @@ table {
     border-spacing: 0;
 }
 
+html {
+    font-size: 10px;
+}
+
 
 /* code for slider starts here */
+
+.main-header {
+    padding-top: 90px;
+    padding-bottom: 35px;
+    border-bottom: 1.5px solid rgb(202, 202, 202);
+}
+
 
 
 #image-slider .slider-images {
@@ -154,8 +165,8 @@ table {
     justify-content: center;
     align-items: center;
     display: flex;
-
 }
+
 
 .slider {
     display: flex;
@@ -209,9 +220,60 @@ table {
 
 /* code for body section starts here */
 
-#body {
-    background-color: #ffe8f0;
+.body {
+    background-color: #fff1f6;
+    width: 100%;
 }
+
+
+/* body floor section  */
+
+.floor-section-wrapper h2 {
+    text-align: center;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+#section-wrapper-col {
+    border-right: 1.5px solid rgb(202, 202, 202);
+}
+
+.row .content-image {
+    width: 100%;
+    padding: 0 20px;
+}
+
+.floor-row-wrapper {
+    padding-bottom: 20px;
+    border-bottom: 1.5px solid rgb(202, 202, 202);
+}
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    /* margin-top:20px ; */
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .content-locations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 0;
+    font-size: 1.24rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
 
 
 /* code for body section ends here */
