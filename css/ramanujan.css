@@ -173,7 +173,7 @@ html {
     overflow-x: scroll;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-    box-shadow: 0px 0px 46px -8px #5a5a5a;
+    box-shadow: 0px 0px 46px -8px #00fde441;
     border-radius: 6px;
 }
 
@@ -221,7 +221,7 @@ html {
 /* code for body section starts here */
 
 .body {
-    background-color: #fff1f6;
+    background-color: #ffffff;
     width: 100%;
 }
 
@@ -236,6 +236,107 @@ html {
 
 #section-wrapper-col {
     border-right: 1.5px solid rgb(202, 202, 202);
+}
+
+.main-block-header {
+    font-family: "Work Sans", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: linear-gradient() url(images/ramanujan-pics/header-bg-img.jpg); */
+    background-image: linear-gradient(rgba(4, 9, 30, 0.57), rgba(4, 9, 30, 0.548)), url(images/ramanujan-pics/header-bg-img.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-color: rgb(1, 7, 29);
+
+}
+
+.main-header {
+    width: 1350px;
+    margin: 0 50px;
+    padding-bottom: 75px;
+}
+
+#left-side-content-header {
+    padding: 0 50px;
+
+}
+
+#left-side-content-header p {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    font-family: inter;
+    font-weight: 500;
+    color: #919191;
+    line-height: 2.9rem;
+    /* color: #474747; */
+
+}
+
+
+/* code for navigation for floors and room section ---------------start here --------------*/
+
+.nav-menus-rooms {
+    background-color: rgb(239, 239, 239);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    font-size: 1.7rem;
+    margin: 15px 20px;
+    border-radius: 12px;
+}
+
+.nav-menus-rooms ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-right: 60px;
+}
+
+
+.nav-menus-rooms ul li a {
+    text-decoration: none;
+    color: #14213d;
+    font-weight: 500;
+}
+
+.floors-lists li {
+    margin: 0 15px;
+}
+
+#dropdown-btn {
+    font-size: 1.5rem;
+}
+
+#search-nav-menus-rooms {
+    font-size: 1.8rem;
+}
+
+#dropdown-item {
+    padding: .8rem 1.5rem;
+    font-size: 1.5rem;
+}
+
+
+/* code for navigation for floors and room section ---------------ends here --------------*/
+
+
+
+
+
+
+.main-block-header h1 {
+    font-weight: 600;
+    font-size: 5.7rem;
+    background: linear-gradient(to right, #FF6600 19%, #F702FF 92%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
 
 .row .content-image {
