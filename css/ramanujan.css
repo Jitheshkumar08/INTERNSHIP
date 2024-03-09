@@ -137,6 +137,7 @@ table {
 
 html {
     font-size: 10px;
+    box-sizing: border-box;
 }
 
 
@@ -345,6 +346,23 @@ html {
     width: 100%;
 }
 
+/* quick-scroll-top */
+
+#quick-scroll-top {
+    position: fixed;
+    z-index: 9451;
+    top: 90%;
+    left: 91.5%;
+    color: rgb(164, 164, 164);
+    font-size: 5rem;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+#quick-scroll-top:hover {
+    scale: 1.4;
+    color: rgb(98, 98, 98);
+}
 
 /* body floor section  */
 
@@ -477,4 +495,91 @@ html {
         max-width: 1200px;
     }
 
+}
+
+@media (max-width:1200px) {
+    .nav-menus-rooms {
+        height: 140px;
+        flex-direction: column;
+    }
+
+    html {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .main-section {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #right-content {
+        text-align: center;
+    }
+
+    #right-content div:nth-of-type(2) {
+        align-self: center;
+        text-align: center;
+        margin-top: 17px;
+    }
+
+    .image-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row .content-image {
+
+        border-radius: 10px;
+        /* margin: 0 0 0 20px; */
+        padding-right: 0;
+        border-right: none;
+    }
+
+    .floor-row-wrapper {
+        padding-bottom: 0;
+    }
+
+    .nav-menus-rooms ul {
+        padding-right: 0;
+    }
+
+    #search-nav-menus-rooms:first-child {
+        margin-left: 0;
+    }
+
+    .nav-menus-rooms ul li a {
+        font-size: 1.1rem;
+
+    }
+
+    .nav-menus-rooms ul li {
+        margin: 0 9px;
+    }
+
+    .sort-by-btn li a {
+        font-size: 1.1rem;
+    }
+
+    #search-nav-menus-rooms:first-child {
+        width: 70%;
+        margin-right: 8px;
+    }
+
+    .floors-lists ul li a {
+        flex-wrap: wrap;
+    }
+
+    .floors-lists ul li a:hover {
+        font-size: 1.1rem;
+        color: #000000;
+
+    }
+
+    #quick-scroll-top {
+        left: 85%;
+        color: rgb(97, 97, 97);
+    }
 }
