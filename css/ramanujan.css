@@ -384,8 +384,10 @@ html {
 
 .row .content-image {
     width: 80%;
-    border-radius: 10px;
-    margin: 0 20px;
+    border-radius: 10px 0 0 10px;
+    margin: 0 0 0 20px;
+    padding-right: 20px;
+    border-right: 2px solid rgb(194, 194, 194);
 }
 
 .floor-row-wrapper {
@@ -443,6 +445,7 @@ html {
 
     padding-top: 20px;
     padding-bottom: 20px;
+
 
 
 }
