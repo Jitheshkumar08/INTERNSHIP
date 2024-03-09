@@ -30,7 +30,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
 </head>
@@ -112,31 +120,36 @@
         <div class="nav-menus-rooms">
             <div class="floors-lists">
                 <ul>
-                    <li><a href="">Ground-floor</a></li>
-                    <li><a href="">First-floor</a></li>
-                    <li><a href="">Second-floor</a></li>
-                    <li><a href="">Third-floor</a></li>
-                    <li><a href="">Fourth-floor</a></li>
+                    <li><a href="#Ground-floor">Ground-floor</a></li>
+                    <li><a href="#First-floor">First-floor</a></li>
+                    <li><a href="#Second-floor">Second-floor</a></li>
+                    <li><a href="#Third-floor">Third-floor</a></li>
+                    <li><a href="#Fourth-floor">Fourth-floor</a></li>
                 </ul>
             </div>
             <div class="menu-items">
+
                 <ul>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sort by
-                        </a>
-                        <div id="dropdown-btn " class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" id="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" id="dropdown-item" href="#">Another action</a>
-                        </div>
-                    </li>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" id="search-nav-menus-rooms"
-                            placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" id="search-nav-menus-rooms"
-                            type="submit">Search</button>
-                    </form>
+                    <div class="sort-by-btn">
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sort by
+                            </a>
+                            <div id="dropdown-btn " class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" id="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" id="dropdown-item" href="#">Another action</a>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="form-search-bar">
+                        <form class="form-inline my-2 my-lg-0" id="form-inline">
+                            <input class="form-control mr-sm-2" type="search" id="search-nav-menus-rooms"
+                                placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" id="search-nav-menus-rooms"
+                                type="submit">Search</button>
+                        </form>
+                    </div>
                 </ul>
             </div>
 
@@ -144,328 +157,130 @@
 
         <div class="container">
             <section class="main-body">
+                <div class="Ground-floor" id="Ground-floor">
+                    <!-- header for floor  -->
+                    <div class="floor-header">
+                        <h1>Ground floor</h1>
+                    </div>
+                    <!-- row-1 -->
 
-                <!-- row-1 -->
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO : LH 003</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/ground floor/lh003.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (ground-floor)
-                                            </p>
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/ground floor/lh003.jpg"
+                                            class="img-fuild content-image" alt="">
+                                    </div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>ROOM NO : LH 003</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (ground-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card">
+                                        <img src="css/images/ramanujan-pics/ground floor/lh004.jpg"
+                                            class="content-image" alt="">
+                                    </div>
+
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>ROOM NO : LH 004</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (ground-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 004</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/ground floor/lh004.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (ground-floor)
-                                            </p>
+
+                    <!-- row - 2 -->
+
+                    <div class="row floor-row-wrapper ">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/ground floor/lh005.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>ROOM NO : LH 005</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (ground-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper ">
+
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/ground floor/lh006.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>ROOM NO : LH 006</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (ground-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- row - 2 -->
+                    <!-- row-3 -->
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO : LH 005</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/ground floor/lh005.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (ground-floor)
-                                            </p>
+                    <div class="row floor-row-wrapper ">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/ground floor/placement dept.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>Placement department</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (ground-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO : LH 006</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/ground floor/lh006.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (ground-floor)
-                                            </p>
-                                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper ">
+
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/ground floor/sambhram.jpg"
+                                            class="img-fuild content-image" alt="">
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-3 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>Placement department</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/ground floor/placement dept.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (ground-floor)
-                                            </p>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>Sambram HALL</h2>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>Sambram HALL</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/ground floor/sambhram.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (ground-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-4 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>CHEMISTRY LAB A</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/chem lab A.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>CHEMISTRY LAB B</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/chem lab  B.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-5 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>CHEMISTRY department</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/dept of chem .jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>maths department</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/dept of mathematics.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-6 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>Physics lab a</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/phy lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>Physics lab b</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/phy lab B.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br>(First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-7-->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 104</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/LH 104.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 108</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/LH 108.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-8 -->
-
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>library</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/library.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (First-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>sowparnika - HALL</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/1st floor/sowparnika.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (First-floor)
-                                            </p>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (ground-floor)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -475,793 +290,995 @@
                 </div>
 
 
-                <!-- row-9 -->
+                <div class="First-floor" id="First-floor">
 
+                    <!-- header for floor  -->
+                    <div class="floor-header">
+                        <h1>First floor</h1>
+                    </div>
+                    <!-- row-4 -->
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 202</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/LH 202.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Second-floor)
-                                            </p>
+                    <div class="row floor-row-wrapper ">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/chem lab A.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>CHEMISTRY LAB A</h2>
+
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper ">
+
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/chem lab  B.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>CHEMISTRY LAB B</h2>
+
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>room no: Lh 203</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/lh206.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Second-floor)
-                                            </p>
+
+                    <!-- row-5 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/dept of chem .jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+
+                                            <h2>CHEMISTRY department</h2>
+
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/dept of mathematics.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>maths department</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- row-10 -->
+                    <!-- row-6 -->
 
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>room no: lh 204</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/LH 204.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Second-floor)
-                                            </p>
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/phy lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>Physics lab a</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/phy lab B.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>Physics lab b</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 205</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/lh 205.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Second-floor)
-                                            </p>
+
+                    <!-- row-7-->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/LH 104.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div">
+                                            <h2>ROOM NO: LH 104</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/LH 108.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 108</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+
+                    <!-- row-8 -->
 
 
-                <!-- row-11 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 206</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/lh206.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>locati0n : Ramanujan-block <br> (Second-floor)
-                                            </p>
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/library.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>library</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/1st floor/sowparnika.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>sowparnika - HALL</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (first-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 207</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/lh207.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Second-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-
-                <!-- row-12 -->
-
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 208</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/lh208.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>locati0n : Ramanujan-block <br> (Second-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>mechanical engineering department</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/dept of mechanical eng.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Second-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- row-13 -->
-
-
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>vlse lab</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/vlse lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>locati0n : Ramanujan-block <br> (Second-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>cad/cae/cfd lab</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/CAD - CAE -LAB.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Second-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-13 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>arms processor lab</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/arm processor lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>locati0n : Ramanujan-block <br> (Second-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>japanees techno cultural center </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/2nd floor/nitte japanees techno cultural center.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Second-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-14  -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: ECL 02</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/ECL 02.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: ECL 03 </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/ECL 03.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-15  -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: ECL 04</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/ECL 04.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO:ECL 05 </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/ECL 05.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-16  -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: ECL 06</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/ECL 06.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: Lh 301</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/LH 301.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-17 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: Lh 302</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/LH 302.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: Lh 303 </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/LH 303.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-18 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>power ectronical lab (ecl01)</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/power electronic lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>dept of e&c library </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/dept of E&C library.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-19 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>analog electronics lab</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/analog electronics lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>communication of microware lab </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/communication of microware lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-20 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>dept of E&C</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/dept of E&C.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>digital electronics lab </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/digital electronics lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- row-21 -->
-
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>digital signal processing lab</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/digital signal processing lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>digital electronics lab </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/3rd floor/digital electronics lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Third-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
 
 
-                <!-- row-22 -->
+                <div class="Second-floor" id="Second-floor">
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 401</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/LH 401.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+                    <!-- header for floor  -->
+                    <div class="floor-header">
+                        <h1>Second floor</h1>
+                    </div>
+
+                    <!-- row-9 -->
+
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/LH 202.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 202</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/lh206.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>room no: Lh 203</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 401 </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/LH 402.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+
+                    <!-- row-10 -->
+
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/LH 204.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>room no: lh 204</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/lh 205.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 205</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+
+                    <!-- row-11 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/lh206.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 206</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/lh207.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 207</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- row-12 -->
+
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/lh208.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 208</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/dept of mechanical eng.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>department of mechanical engineering</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- row-13 -->
+
+
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/vlse lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>vlse lab</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/CAD - CAE -LAB.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>cad/cae/cfd lab</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row-13 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/arm processor lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>arms processor lab</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/2nd floor/nitte japanees techno cultural center.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>japanees techno cultural center </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Second-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!-- row-23 -->
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: LH 401</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/lh 403.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+                <div id="Third-floor">
+
+                    <!-- header for floor  -->
+                    <div class="floor-header">
+                        <h1>Third floor</h1>
+                    </div>
+
+                    <!-- row-14  -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/ECL 02.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: ECL 02</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/ECL 03.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: ECL 03 </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: CSL-13 </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/CSL -13.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+
+                    <!-- row-15  -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/ECL 04.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: ECL 04</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/ECL 05.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO:ECL 05 </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <!-- row-16  -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/ECL 06.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: ECL 06</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/LH 301.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: Lh 301</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row-17 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/LH 302.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: Lh 302</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/LH 303.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: Lh 303 </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row-18 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/power electronic lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>power ectronical lab (ecl01)</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/dept of E&C library.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>dept of e&c library </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row-19 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/analog electronics lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>analog electronics lab</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/communication of microware lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>communication of microware lab </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row-20 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/dept of E&C.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>dept of E&C</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/digital electronics lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>digital electronics lab </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- row-21 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/digital signal processing lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>digital signal processing lab</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/3rd floor/digital electronics lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>digital electronics lab </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Third-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-                <!-- row-24 -->
+                <div class="" id="Fourth-floor">
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: ISL 06</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/isl 06.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+                    <!-- header for floor  -->
+                    <div class="floor-header">
+                        <h1>Fourth floor</h1>
+                    </div>
+
+
+                    <!-- row-22 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/LH 401.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 401</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/LH 402.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 401 </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: MCAL 06 </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/mcal 06.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+
+                    <!-- row-23 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/lh 403.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: LH 401</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/CSL -13.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: CSL-13 </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- row-25 -->
+                    <!-- row-24 -->
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>ROOM NO: ISL 05</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/ISL 05.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/isl 06.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: ISL 06</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/mcal 06.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: MCAL 06 </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>dept of cyber security </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/dept of cyber security.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+
+                    <!-- row-25 -->
+
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/ISL 05.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>ROOM NO: ISL 05</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/dept of cyber security.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>dept of cyber security </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- row-26 -->
+                    <!-- row-26 -->
 
 
-                <div class="row floor-row-wrapper">
-                    <div class="col-lg-6" id="section-wrapper-col">
-                        <div class="floor-section-wrapper">
-                            <h2>M.tech cyber security lab</h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/M.tech cyber security lab.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
+                    <div class="row floor-row-wrapper">
+                        <div class="col-lg-6" id="section-wrapper-col">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/M.tech cyber security lab.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>M.tech cyber security lab</h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="floor-section-wrapper">
+                                <div class="row main-section">
+                                    <div class="col-lg-6 image-card"><img
+                                            src="css/images/ramanujan-pics/4rth  floor/photostat center.jpg"
+                                            class="img-fuild content-image" alt=""></div>
+                                    <div class="col-lg-6" id="right-content">
+                                        <div class="div"> <!--right-content -->
+                                            <h2>photostat center </h2>
+                                        </div>
+                                        <div class="div-location-content">
+                                            <p>location : Ramanujan-block <br> (Fourth-floor)</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="floor-section-wrapper">
-                            <h2>photostat center </h2>
-                            <div class="row main-section">
-                                <div class="col-lg-6 image-card"><img
-                                        src="css/images/ramanujan-pics/4rth  floor/photostat center.jpg"
-                                        class="img-fuild content-image" alt=""></div>
-                                <div class="col-lg-6">
-                                    <div class="row main-section">
-                                        <div class="col-10 content-locations">
-                                            <p>Location : Ramanujan-block <br> (Fourth-floor)
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
 
                 <!-- row-27 -->
