@@ -388,12 +388,10 @@ body::-webkit-scrollbar {
 
 /* code for main body starts here */
 
+#wrapper{
+    background: #1a0626;}
 
-#wrapper {
-    background: #1a0626;
-    /* background-color: #1a0626; */
-    /* background-color: #15041e; */
-}
+
 
 .blocks img {
     width: 100%;
