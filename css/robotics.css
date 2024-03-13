@@ -392,8 +392,12 @@ html {
     box-shadow: -1px -1px 62px -13px #DBD9D6;
     border-radius: 14px;
     box-sizing: border-box;
+    transition: 0.2s;
 }
 
+.floor-section-wrapper:hover {
+    box-shadow: -1px -1px 62px -13px #9c9c9c;
+}
 
 
 
