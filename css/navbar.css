@@ -180,6 +180,7 @@ html {
 
 #nav-row {
     justify-content: space-between;
+    margin-right: 0;
 }
 
 
@@ -211,6 +212,9 @@ html {
 
 }
 
+.row {
+    margin-right: 0;
+}
 
 
 #img {
@@ -225,6 +229,7 @@ html {
     padding: 10px 38px;
     font-size: 14px;
 }
+
 
 
 
@@ -250,6 +255,14 @@ html {
 
     }
 
+    .collapse {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
 
 }
 
@@ -261,9 +274,6 @@ html {
         align-items: center;
         padding: 0;
         margin: 0;
-
-
-
     }
 
 
