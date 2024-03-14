@@ -171,6 +171,7 @@ body::-webkit-scrollbar {
     font-style: normal;
     font-size: 6.5rem;
     text-align: center;
+    text-transform: uppercase;
     margin: 50px 0;
     color: rgba(201, 201, 12, 0.142);
     -webkit-text-stroke: rgb(242, 255, 0);
