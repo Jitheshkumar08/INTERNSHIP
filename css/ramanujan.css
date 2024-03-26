@@ -138,6 +138,7 @@ table {
 html {
     font-size: 10px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -470,7 +471,6 @@ html {
     padding-bottom: 20px;
 
 
-
 }
 
 .image-card img {
@@ -518,6 +518,9 @@ html {
         justify-content: center;
         align-items: center;
     }
+    #image-slider{
+        padding-top: 30px;
+    }
 
     #right-content {
         text-align: center;
@@ -545,6 +548,10 @@ html {
 
     .floor-row-wrapper {
         padding-bottom: 0;
+    }
+
+    .floor-section-wrapper{
+        margin: 0 20px;
     }
 
     .nav-menus-rooms ul {
