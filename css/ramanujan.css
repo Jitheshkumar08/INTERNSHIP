@@ -337,6 +337,49 @@ html {
 }
 
 
+
+/* code for drop down search container starts here------------------------------------------------ */
+
+
+
+.dropdown-search-lists-container {
+    position: absolute;
+    font-size: 17px;
+    right: 30px;
+    width: 40%;
+    height: 300px;
+    z-index: -12;
+    background-color: rgb(230, 230, 230);
+    border: 1.5px solid rgb(182, 182, 182);
+    border-radius: 12px;
+    padding: 10px;
+
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+
+
+.hide {
+    position: absolute;
+    z-index: -1;
+}
+
+.show {
+    position: absolute;
+    z-index: 2;
+}
+
+
+
+.dropdown-search-lists-container li {
+    padding: 5px 10px;
+}
+
+.dropdown-search-lists-container li:hover {
+    background-color: rgba(111, 178, 255, 0.285);
+}
+
 /* code for navigation for floors and room section ---------------ends here --------------*/
 
 
@@ -518,7 +561,8 @@ html {
         justify-content: center;
         align-items: center;
     }
-    #image-slider{
+
+    #image-slider {
         padding-top: 30px;
     }
 
@@ -550,7 +594,7 @@ html {
         padding-bottom: 0;
     }
 
-    .floor-section-wrapper{
+    .floor-section-wrapper {
         margin: 0 20px;
     }
 
