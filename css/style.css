@@ -497,6 +497,60 @@ body::-webkit-scrollbar {
     display: flex;
 }
 
+footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+}
+.foot{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    color:gray;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.cpy{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    left: 275px;
+    font-size: small;
+}
+.foot-list{
+    width:200px;
+    height: 100px;
+    color: gray;
+    position: relative;
+    bottom: 80px;
+    left: 250px;
+    padding-top: 20px;
+}
+.ft{
+    width: 300px;
+    height: 100px;
+    color: gray;
+    position:relative;
+    bottom: 70px;
+    right:355px;
+    padding-top: 30px;
+  
+
+}
+#ft-li{
+    font-weight: 70%;
+    font-size: 20px;
+    padding: 20px;
+    color: grey;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 25px;
+}
+
+    
 
 @media (max-width:730px) {
     .blocks {
