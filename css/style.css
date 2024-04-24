@@ -372,6 +372,15 @@ body::-webkit-scrollbar {
     width: 100%;
     text-align: center;
     padding: 10px 0 30px;
+    margin-top: 50px;
+}
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+}
+textarea{
+    border: 2px solid black;
+    border-radius: 5px;
 }
 
 .footer h4 {
@@ -379,7 +388,13 @@ body::-webkit-scrollbar {
     margin-top: 20px;
     font-weight: 800;
 }
+.hero-btn{
+    background-color:#b2085d;
+    color: white;
+    border-color: #6e0b3db4;
+    border-radius: 6px;
 
+}
 .icons i {
     color: #b2085d;
     margin: 0 13px;
@@ -496,7 +511,7 @@ body::-webkit-scrollbar {
     max-width: 90%;
     display: flex;
 }
-
+/*footer styling-hash*/
 footer{
     background-color: black;
     color: white;
@@ -550,7 +565,103 @@ footer{
     padding-top: 25px;
 }
 
+   /*about page styling-hash*/
+.abt-title{
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    height: 230px;
+
+} 
+#abt{
+    color: rgb(3, 3, 44);
+}
+.abt-para{
+    margin-top: 18px;
+    margin-left: 90px;
+    font-size: 18px;
+    width:1300px;
+    text-align: center;
+
+}
+
+.outbox-abt{
+    height: 600px;
+    margin-bottom: 90px;
+    background: linear-gradient(to right, #FF6600 19%, #F702FF 92%);
+}
+.nm-dev{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100%;
+    font-size: 35px;
+    background: linear-gradient(to right, #FF6600 19%, #F702FF 92%);
+    text-align: center;
+    padding-top: 20px;
     
+}
+.inbx-st{
+    height: 600px;
+    margin-top: 20px;
+    background: linear-gradient(to right, #FF6600 19%, #F702FF 92%);
+}
+.ppl-1{
+    width: 400px;
+    height: 520px;
+    position: relative;
+    top:20px;
+    left:250px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, #018AD3 0%, #74FEBD 100%);
+  
+}
+
+.ppl-2{
+    width: 400px;
+    height:520px;
+    position: relative;
+    bottom:500px;
+    left:850px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to right, #018AD3 0%, #74FEBD 100%);
+}
+.img-abt{
+    width: 250px;
+    height:250px;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: relative;
+    left:70px ;
+    margin-top:20px
+}
+#wb-dev{
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+}
+.name{
+    width:;
+    height: 25px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.git-logo{
+    display: flex;
+    justify-content:center ;
+}
+#git{
+    display: inline;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
 
 @media (max-width:730px) {
     .blocks {
