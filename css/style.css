@@ -574,6 +574,7 @@ footer{
     height: 230px;
 
 } 
+
 #abt{
     color: rgb(3, 3, 44);
 }
@@ -587,44 +588,47 @@ footer{
 }
 
 .outbox-abt{
-    height: 600px;
-    margin-bottom: 90px;
+    height: 650px;
+    
+    background: linear-gradient(to bottom, lightblue, darkblue);
 }
 .nm-dev{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100%;
-    font-size: 35px;
+    font-size: 50px;
     
     text-align: center;
     padding-top: 20px;
     
 }
 .inbx-st{
-    height: 600px;
-    margin-top: 20px;
+    height: 400px;
+   
+    
 }
 .ppl-1{
     width: 400px;
-    height: 520px;
+    height: 500px;
     position: relative;
     top:20px;
     left:250px;
     border: 3px solid black;
     border-radius: 10px;
-    background: linear-gradient(to right, #FF6600 19%, #F702FF 92%);
+    
+    background: linear-gradient(rgb(0, 0, 139) , rgb(0, 0, 0));
 }
   
 
 
 .ppl-2{
     width: 400px;
-    height:520px;
+    height:500px;
     position: relative;
-    bottom:500px;
+    bottom:480px;
     left:850px;
     border: 3px solid black;
     border-radius: 10px;
-    background: linear-gradient(to right, #018AD3 0%, #74FEBD 100%);
+    background: linear-gradient(rgb(0, 0, 139) , rgb(0, 0, 0));
 }
 .img-abt{
     width: 250px;
@@ -648,6 +652,7 @@ footer{
     font-size: 18px;
     display: flex;
     justify-content: center;
+    color: white;
     
    
 }
