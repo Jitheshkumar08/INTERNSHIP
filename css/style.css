@@ -374,11 +374,13 @@ body::-webkit-scrollbar {
     padding: 10px 0 30px;
     margin-top: 50px;
 }
-input{
+
+input {
     border: 2px solid black;
     border-radius: 5px;
 }
-textarea{
+
+textarea {
     border: 2px solid black;
     border-radius: 5px;
 }
@@ -388,13 +390,15 @@ textarea{
     margin-top: 20px;
     font-weight: 800;
 }
-.hero-btn{
-    background-color:#b2085d;
+
+.hero-btn {
+    background-color: #b2085d;
     color: white;
     border-color: #6e0b3db4;
     border-radius: 6px;
 
 }
+
 .icons i {
     color: #b2085d;
     margin: 0 13px;
@@ -511,22 +515,25 @@ textarea{
     max-width: 90%;
     display: flex;
 }
+
 /*footer styling-hash*/
-footer{
+footer {
     background-color: black;
     color: white;
     height: 200px;
 }
-.foot{
+
+.foot {
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: end;
-    color:gray;
+    color: gray;
     padding-bottom: 20px;
     font-size: 15px;
 }
-.cpy{
+
+.cpy {
     height: 80px;
     display: flex;
     justify-content: center;
@@ -535,8 +542,9 @@ footer{
     left: 275px;
     font-size: small;
 }
-.foot-list{
-    width:200px;
+
+.foot-list {
+    width: 200px;
     height: 100px;
     color: gray;
     position: relative;
@@ -544,18 +552,20 @@ footer{
     left: 250px;
     padding-top: 20px;
 }
-.ft{
+
+.ft {
     width: 300px;
     height: 100px;
     color: gray;
-    position:relative;
+    position: relative;
     bottom: 70px;
-    right:355px;
+    right: 355px;
     padding-top: 30px;
-  
+
 
 }
-#ft-li{
+
+#ft-li {
     font-weight: 70%;
     font-size: 20px;
     padding: 20px;
@@ -565,97 +575,107 @@ footer{
     padding-top: 25px;
 }
 
-   /*about page styling-hash*/
-.abt-title{
+/*about page styling-hash*/
+.abt-title {
     text-decoration: none;
     text-align: center;
     font-size: 30px;
     padding-top: 20px;
     height: 230px;
 
-} 
-#abt{
+}
+
+#abt {
     color: rgb(3, 3, 44);
 }
-.abt-para{
+
+.abt-para {
     margin-top: 18px;
     margin-left: 90px;
     font-size: 18px;
-    width:1300px;
+    width: 1300px;
     text-align: center;
 
 }
 
-.outbox-abt{
+.outbox-abt {
     height: 600px;
     margin-bottom: 90px;
 }
-.nm-dev{
+
+.nm-dev {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100%;
     font-size: 35px;
-    
+
     text-align: center;
     padding-top: 20px;
-    
+
 }
-.inbx-st{
+
+.inbx-st {
     height: 600px;
     margin-top: 20px;
 }
-.ppl-1{
+
+.ppl-1 {
     width: 400px;
     height: 520px;
     position: relative;
-    top:20px;
-    left:250px;
+    top: 20px;
+    left: 250px;
     border: 3px solid black;
     border-radius: 10px;
     background: linear-gradient(to right, #FF6600 19%, #F702FF 92%);
 }
-  
 
 
-.ppl-2{
+
+.ppl-2 {
     width: 400px;
-    height:520px;
+    height: 520px;
     position: relative;
-    bottom:500px;
-    left:850px;
+    bottom: 500px;
+    left: 850px;
     border: 3px solid black;
     border-radius: 10px;
     background: linear-gradient(to right, #018AD3 0%, #74FEBD 100%);
 }
-.img-abt{
+
+.img-abt {
     width: 250px;
-    height:250px;
+    height: 250px;
     border: 2px solid black;
     border-radius: 50%;
     position: relative;
-    left:70px ;
-    margin-top:20px
+    left: 70px;
+    margin-top: 20px
 }
-#wb-dev{
+
+#wb-dev {
     width: 250px;
-    height:250px;
+    height: 250px;
     border-radius: 50%;
 }
-.name{
-    width:;
+
+.name {
+
     height: 25px;
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     display: flex;
     justify-content: center;
-    
-   
+
+
 }
-.git-logo{
+
+.git-logo {
     display: flex;
-    justify-content:center ;
+    justify-content: center;
 }
-#git{
+
+#git {
     display: inline;
     width: 60px;
     height: 60px;
