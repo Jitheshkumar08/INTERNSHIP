@@ -583,9 +583,15 @@ footer {
     padding-top: 20px;
     height: 230px;
 
+<<<<<<< HEAD
 }
 
 #abt {
+=======
+} 
+
+#abt{
+>>>>>>> 9902137478f5575a51ec15e2d371aae573f626d4
     color: rgb(3, 3, 44);
 }
 
@@ -598,48 +604,75 @@ footer {
 
 }
 
+<<<<<<< HEAD
 .outbox-abt {
     height: 600px;
     margin-bottom: 90px;
+=======
+.outbox-abt{
+    height: 650px;
+    
+    background: linear-gradient(to bottom, lightblue, darkblue);
+>>>>>>> 9902137478f5575a51ec15e2d371aae573f626d4
 }
 
 .nm-dev {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100%;
+<<<<<<< HEAD
     font-size: 35px;
 
+=======
+    font-size: 50px;
+    
+>>>>>>> 9902137478f5575a51ec15e2d371aae573f626d4
     text-align: center;
     padding-top: 20px;
 
 }
+<<<<<<< HEAD
 
 .inbx-st {
     height: 600px;
     margin-top: 20px;
+=======
+.inbx-st{
+    height: 400px;
+   
+    
+>>>>>>> 9902137478f5575a51ec15e2d371aae573f626d4
 }
 
 .ppl-1 {
     width: 400px;
-    height: 520px;
+    height: 500px;
     position: relative;
     top: 20px;
     left: 250px;
     border: 3px solid black;
     border-radius: 10px;
-    background: linear-gradient(to right, #FF6600 19%, #F702FF 92%);
+    
+    background: linear-gradient(rgb(0, 0, 139) , rgb(0, 0, 0));
 }
 
 
 
 .ppl-2 {
     width: 400px;
+<<<<<<< HEAD
     height: 520px;
     position: relative;
     bottom: 500px;
     left: 850px;
+=======
+    height:500px;
+    position: relative;
+    bottom:480px;
+    left:850px;
+>>>>>>> 9902137478f5575a51ec15e2d371aae573f626d4
     border: 3px solid black;
     border-radius: 10px;
-    background: linear-gradient(to right, #018AD3 0%, #74FEBD 100%);
+    background: linear-gradient(rgb(0, 0, 139) , rgb(0, 0, 0));
 }
 
 .img-abt {
@@ -666,8 +699,14 @@ footer {
     font-size: 18px;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
 
 
+=======
+    color: white;
+    
+   
+>>>>>>> 9902137478f5575a51ec15e2d371aae573f626d4
 }
 
 .git-logo {
