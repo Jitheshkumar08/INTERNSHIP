@@ -467,6 +467,7 @@ textarea {
     align-items: center;
     border-radius: 1.2em;
     margin: 0 1rem;
+    border: 1px solid rgba(246, 225, 255, 0.197);
     box-sizing: border-box;
     padding-top: 15px;
     padding-bottom: 15px;
